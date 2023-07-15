@@ -11,7 +11,7 @@ int main(void)
 	int  b = 0;
 
 	do {
-		putchar(b);
+		putchar(48+b);
 		b++;
 	} while (b <= 9);
 	putchar('\n');
