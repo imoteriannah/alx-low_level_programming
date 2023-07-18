@@ -2,16 +2,17 @@
 #include <stdlib.h>
 /**
  * main - main block
- * Description: Write a program that prints all possible 2 didgit numbers
+ * Description: Write a program that prints all possible
  * Return: 0
  */
 int main(void)
 {
-	int c = 0;
+	int c;
 	int d = 0;
 
 	while (d < 10)
 	{
+		c = 0;
 		while (c < 10)
 		{
 			if (d != c && d < c)
