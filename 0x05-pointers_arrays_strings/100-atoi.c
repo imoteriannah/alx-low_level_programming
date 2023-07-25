@@ -28,3 +28,4 @@ int _atoi(char *s)
 	}
 	res = stp * res;
 	return (res);
+}
