@@ -1,5 +1,17 @@
 #include "main.h"
 
+int sqr(int n, int x);
+/**
+ * _sqrt_recursion - function to find natural square root
+ * @n: int whose square root is to be found
+ * Return: square root on n
+ */
+
+int _sqrt_recursion(int n)
+{
+	return (sqr(n, 1));
+}
+
 /**
  * sqr - function to find square root
  * @n: int whose square root is to be found
@@ -17,15 +29,4 @@ int sqr(int n, int x)
 	else
 		return (-1);
 
-}
-
-/**
- * _sqrt_recursion - function to find natural square root
- * @n: int whose square root is to be found
- * Return: square root on n
- */
-
-int _sqrt_recursion(int n)
-{
-	return (sqr(n, 1));
 }
