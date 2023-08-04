@@ -1,21 +1,17 @@
 #include "main.h"
 
 /**
- * _puts - prints a string to the stdout
- * @str: pointer to the string to check
- * Return: 0
-*/
-
+ * _puts - prints string
+ * @str: input string
+ * Return: no return
+ */
 
 void _puts(char *str)
 {
-	int l = 0;
-
-	while (str[l])
+	while (*str != '\0')
 	{
-		_putchar(str[l]);
-		l++;
+		_putchar(*str);
+		str++;
 	}
 	_putchar('\n');
 }
-
